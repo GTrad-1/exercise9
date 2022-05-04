@@ -1,0 +1,152 @@
+nav ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+font-size: 1.5rem;
+text-align: center;
+}
+nav li {
+display: inline-block;
+}
+nav {
+border: 1px solid #333;
+margin: 1rem auto;
+background-color: black;
+border-bottom: 5px solid #00bff3;
+border-top: 5px solid #00bff3;
+}
+nav a {
+color: #00bff3;
+text-decoration: none;
+font-size: 1.5rem;
+font-weight: 600;
+display: block;
+padding: 0.5rem 1rem;
+}
+
+nav a:focus {
+background-color: black;
+color: black;
+}
+nav a:hover {
+background-color: black;
+color: #ff583d;
+}
+nav a:hover {
+background-color: black;
+color: #ff583d;
+}
+
+html {
+box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+box-sizing: inherit;
+}
+body {
+font-family: "Roboto Slab", serif;
+font-weight: 400;
+margin: 0;
+padding: 0;
+font-size: 1.2rem;
+}
+list-style-type: none;
+
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+
+li {
+float: left;
+border-right: 1px solid #bbb;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 24px 26px;
+text-decoration: none;
+}
+li a:hover {
+background-color: #111;
+}
+
+body {
+  background-image: url("background.jpg");
+}
+
+h1 {
+color: #FFF;
+font-size: 2em;
+padding-top: 100px;
+width: 100%;
+}
+h2 {
+border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+color: rgba(255, 255, 255, 0.5);
+font-weight: 100;
+font-size: 24px;
+line-height: 24px;
+padding-bottom: 30px;
+text-align: center;
+width: 100%;
+}
+
+p {
+color: aliceblue;
+line-height: 1.3em;
+text-align: left;
+width: 100%;
+}
+.byline {
+font-family: Helvetica;
+color: rgba(255, 255, 255, 0.5);
+float: left;
+font-size: 14px;
+padding-left: 10px;
+text-transform: uppercase;
+}
+.content {
+padding: 40px;
+}
+h1 {
+    text-color:white
+    text-align: center;
+  }
+th, td{
+    border: 1px solid black;
+    padding: 8px;
+    }
+    
+    table{
+       border-collapse: collapse;
+       border: 5px solid rgb(192, 189, 207);
+       text-align: center;
+       vertical-align: middle;
+    }
+    
+  table thead tr{
+    background-color: white;
+    color: white;
+}
+
+    thead th{
+       width:25%;
+    }
+footer {  
+position: fixed;  
+left: 10px;  
+bottom: 5px;  
+right: 10px;   
+width: 95%;  
+background-color: gray;  
+color: white;  
+text-align: center;  
+}  
